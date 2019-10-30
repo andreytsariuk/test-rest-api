@@ -1,0 +1,30 @@
+{
+  "Port": "APP_PORT",
+  "JWT": {
+    "Secret": "JWT_SECRET"
+  },
+  "Db": {
+    "connection": "DB_CONNECTION_URL",
+    "pool": {
+      "min": "DB_POOL_MIN",
+      "max": "DB_POOL_MAX"
+    }
+  },
+  "ELASTIC_SEARCH": {
+    "CONNECTION_URL": "ES_CONNECTION_STRING",
+    "LOG": "ES_LOG",
+    "REQUEST_TIMEOUT": "ES_REQUEST_TIMEOUT",
+    "API_VERSION": "ES_API_VERSION"
+  },
+  "WINSTON": {
+    "INDEX_PREFIX": "ES_INDEX_PREFIX",
+    "INDEX_SUFFIX_PATTERN": "YES_INDEX_SUFFIX_PATTERN"
+  },
+  "AWS":{
+    "SES": {
+      "REGION": "AWS_SES_REGION"
+    }
+  },
+  "AWS_ACCESS_KEY_ID": "AWS_ACCESS_KEY_ID",
+  "AWS_SECRET_ACCESS_KEY": "AWS_SECRET_ACCESS_KEY"
+}

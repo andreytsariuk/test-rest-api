@@ -1,0 +1,50 @@
+{
+  "serverUrl": "http://localhost:3001",
+  "WebUrl": "http://localhost:4200",
+  "Port": 3001,
+  "JWT": {
+    "Secret": "test",
+    "ExpirationCount": "4",
+    "ExpirationCountItem": "h"
+  },
+  "Support": {
+    "senderEmail": "support@test.com"
+  },
+  "Db": {
+    "client": "pg",
+    "connection": "postgres://test:test@localhost/test",
+    "pool": {
+      "min": 1,
+      "max": 10
+    },
+    "migrations": {
+      "directory": "./db/migrations",
+      "tableName": "migrations"
+    },
+    "seeds": {
+      "directory": "./db/seeds"
+    }
+  },
+  "TokenTypes": {
+    "resetPassword": "reset_password"
+  },
+  "ELASTIC_SEARCH": {
+    "CONNECTION_URL": "localhost:9200",
+    "LOG": "error",
+    "REQUEST_TIMEOUT": 30000,
+    "API_VERSION": "6.8"
+  },
+  "WINSTON": {
+    "INDEX_PREFIX": "be-logs",
+    "INDEX_SUFFIX_PATTERN": "YYYY.MM.DD"
+  },
+  "AWS": {
+    "SES": {
+      "REGION": "us-east-1"
+    }
+  },
+  "EMAIL_TYPES": {
+    "INVITE": "invite",
+    "RESET_PASSWORD": "reset_password"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Port": 3000,
+  "Db": {
+    "client": "pg",
+    "pool": {
+      "min": 1,
+      "max": 10
+    },
+    "migrations": {
+      "directory": "./db/migrations",
+      "tableName": "migrations"
+    },
+    "seeds": {
+      "directory": "./db/seeds"
+    }
+  }
+}
