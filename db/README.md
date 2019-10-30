@@ -23,4 +23,4 @@ All **[Models](./models)** written based on **[Bookshelf ORM](https://bookshelfj
 
 
 ### Database structure
-![alt text](./docs/db_er_diagram_v2.jpeg)
+![alt text](./docs/testER.png)
