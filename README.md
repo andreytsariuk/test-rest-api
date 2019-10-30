@@ -71,6 +71,7 @@ Before each **push** will run linter and full set of Tests: Unit + Integration +
 
 ## Database
 
+### **[Knex](./db/docs/testER.png)**
 
 ### General
 For local development, the following DB is used by default:
@@ -86,7 +87,7 @@ So the conneciton string looks like the following:
 postgres://test:test@localhost/test
 ```
 
-To create empty database, with default values, **[Knex](http://knexjs.org)** can be used:
+To create empty database, with default values,  can be used:
 ```
 knex migrate:latest
 knex seed:run
